@@ -4,10 +4,10 @@ import 'dart:typed_data';
 import 'package:http/http.dart' as http;
 
 class GeminiService {
-  static const String apiKey = "AIzaSyAmp9T4GoH0h9RU2rJ-BU_qwuRxnr8r_8I";
-  static const String pixabayApiKey = "54874799-571b5c264e06fb47d926b6bb3";
+  static const String apiKey = "hidden";
+  static const String pixabayApiKey = "hidden";
 
-  static const String _nutritionApiKey = 'AIzaSyC95VmA7tfXrMtqgvomfSYPFZD9jOUrxkI';
+  static const String _nutritionApiKey = 'hidden';
 
   //Detect ingredients from image
   static Future<List<String>> detectIngredients(File image) async {

@@ -179,7 +179,7 @@ class PlannerController extends GetxController {
 
       final model = GenerativeModel(
         model: 'gemini-2.5-flash',
-        apiKey: 'AIzaSyCeHUyp3gMl9cBndMQvYWrIxlZGHLrCcHg',
+        apiKey: 'hidden',
       );
 
       final prompt =

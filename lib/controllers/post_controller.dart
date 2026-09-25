@@ -18,7 +18,7 @@ class PostController extends GetxController {
 
   final _model = GenerativeModel(
     model: 'gemini-2.5-flash',
-    apiKey: 'AIzaSyB5z8_MWyKlNxItApAAZRrARylVLOZDmhc',
+    apiKey: 'hidden',
   );
 
   // Text Controllers
